@@ -12,7 +12,7 @@ Orca Slicer writes all slicer settings as comments at the end of every `.gcode` 
 ```
 python clean.py
 ```
-On first run, creates `source/` and `cleaned/`. Drop your `.gcode` files in `source/`, run again, and pick which file is the reference (good settings) and which is the one to compare.
+On first run, creates `source/` and `cleaned/`. Drop your `.gcode` files in `source/`, run again, and pick which file is the reference and which is the one to compare.
 
 Or pass files directly:
 ```
